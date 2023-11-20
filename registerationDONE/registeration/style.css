@@ -1,0 +1,321 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contento h3 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    color: black;
+    font-family: 'Times New Roman', serif;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein{
+    from {
+        margin-left: 2%;
+        opacity: 0%;
+        
+    }
+    to {
+        margin-right: 2%;
+        opacity: 100%;
+    }
+}
+.contento {
+    margin-left: 25%;
+    margin-top: 5%;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+    .contento p {
+        font-family: 'Times New Roman', serif;
+        font-size: 16px;
+        margin-bottom: 2%;
+    }
+
+    .contento .contentbtn {
+        display: inline-block;
+        background: linear-gradient(45deg, #2D2B2F, #3E3A6D);
+        border-radius: 6px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: white;
+        box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+        font-family: 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    .contento h4 {
+        font-family: 'Times New Roman', serif;
+        margin-top: 2%;
+        font-size: 25px;
+
+    }
+
+
+
+.feature-img {
+    height: 90%;
+    position: absolute;
+    bottom:10px;
+    right:160px;
+    top: 20%
+}
+
+.btn {
+    border: none;
+    background: black;
+    padding: 16px 60px;
+    color:white;
+    border-radius: 8px;
+    transition: 0.2s;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+    /* Additional styles for hover effect */
+    .btn:hover {
+        background: linear-gradient(45deg, salmon, gold);
+        box-shadow: 0 0 0 4px #fff,
+        0 0 0 8px salmon;
+    }
+
+.contentofindex {
+    text-align: center;
+}
+
+.contento .error {
+    width: 28%;
+    margin-left: 10px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #ffbebe92;
+    border-radius: 5px;
+    text-align: left;
+}
+    .contento .error h6 {
+        font-size: 15px;
+    }
+
+.contento .success {
+    color: #4e915f;
+    background: #47db4573;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+.contento .login .success h6 {
+    font-size: 15px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('bgmain.png'); /* Replace with your actual image path */
+    background-color: #5c5c5c6e;
+    background-repeat: no-repeat;
+    background-size: cover; /* Set background-size to cover */
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Hide any overflow if the image is larger than the viewport */
+   
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+
+    .header_logo h1 {
+        color: #ffffff;
+        margin: 0;
+    }
+
+.header_logo-overlay {
+    flex: 1;
+    height: 5px; /* Adjust the height of the overlay as needed */
+    background-color: black;
+}
+
+.header_menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+    .header_menu li {
+        margin-right: 20px;
+    }
+
+    .header_menu a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+.overlay {
+    background-image: url('foods.png'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: none;
+}
+
+    .overlay::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value for opacity */
+    }
+
+.input-group labelname{
+    font-size: 30px;
+}
+.input-group labelpass {
+    font-size: 30px;
+}
+
+.input-box{
+    position: relative;
+    width: 250px;
+}
+
+.input-box input{
+    width: 100%;
+    padding:10px;
+    border:1px solid black;
+    background: rgb(38, 37, 40, 0.50);
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+    .input-box span {
+        font-family: 'Times New Roman', serif;
+        font-size: 20px;
+        color: black;
+    }
+
+    .input-box input:valid ~ span,
+    .input-box input::after focus span {
+        color: salmon;
+        transform: translateX(10px), translateY(-7px);
+        font-size: 0.65em;
+        padding: 0 10px;
+        background: black;
+        border-left: 1px solid salmon;
+        border-right: 1px solid salmon;
+    }
+
+.contento h5 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    color: #303248;
+    font-family: 'Brush Script MT', cursive;
+    animation-duration: 2s;
+    animation-name: slidein;
+    text-shadow: 1px 1px 10px white, 1px 1px 10px #ccc;
+}
+
+.notamember {
+    color: black;
+    font-family: 'Times New Roman', serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.notamember a{
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.click a {
+    display: inline-block;
+    background: linear-gradient(45deg, #313742, #3E3A6D);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+}
+    .click a:hover {
+        background: linear-gradient(45deg, #4b4f5a, #574f7d); /* Change the colors as needed */
+        transform: scale(1.05); /* Add a subtle scale effect on hover */
+        box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.25); /* Adjust shadow on hover */
+    }
+
+.welcome p {
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+    color: black;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+
+}
+
+.content-table thread tr{
+    background-color: black;
+    color: black;
+    text-align: left;
+    font-weight:bold;
+
+}
+
+.content-table th,td{
+    padding: 12px 15px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid white;
+}
+
+.contento .menu {
+    width:30%;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px; /* Adjust padding as needed */
+    border: 2px dashed #333; /* Dashed border with color #333 (dark gray) */
+}
+
+.contento .menu p {
+    border-bottom: 1px solid #333; /* Solid border at the bottom of each paragraph */
+    padding-bottom: 10px; /* Adjust padding as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.contento .menu a {
+    color: black;
+    text-decoration: none;
+}
+
+
